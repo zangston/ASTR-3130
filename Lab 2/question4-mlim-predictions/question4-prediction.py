@@ -39,7 +39,7 @@ m, b = popt
 plt.scatter(m_lim, log_d, label='Data')
 
 # define diameters of telescopes whose limiting magnitudes are being predicted
-d_pred = [26, 40, 393.701]
+d_pred = [26, 40, 393.701, 467.69]
 log_d_pred = np.log(d_pred)
 
 # generate predictions based off fitted regression relationship
@@ -49,8 +49,9 @@ for i in range(len(log_d_pred)):
 print(m_lim_pred)
 
 # define shapes and labels for each predicted point
-markers = ['s', '^', '*']
-labels = ['McCormick 26-inch refractor', 'Fan Mountain 40-inch reflector', 'Keck 10-meter reflector']
+markers = ['s', '^', '*', 'P']
+labels = ['McCormick 26-inch refractor', 'Fan Mountain 40-inch reflector', 'Keck 10-meter reflector',
+          'Large Binocular Telescope']
 
 # add predicted points to plot
 for i in range(len(m_lim_pred)):
