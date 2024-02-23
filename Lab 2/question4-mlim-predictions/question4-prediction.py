@@ -67,7 +67,7 @@ plt.plot(x_regression, y_regression, color='orange', label=line_label)
 # chart title, labels, legend
 plt.title('Log-Diameter versus Limiting Magnitude, with Predictions for Larger Telescopes')
 plt.xlabel('Limiting Magnitude, $\mathregular{m_{lim}}$')
-plt.ylabel('Logarithm of Aperture Diameter, log(d)')
+plt.ylabel('Logarithm of Aperture Diameter, log(d) (d in inches)')
 plt.legend()
 
 # show plot

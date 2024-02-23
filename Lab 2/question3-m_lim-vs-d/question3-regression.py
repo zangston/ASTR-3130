@@ -44,7 +44,7 @@ plt.plot(x_regression, y_regression, color='orange', label=line_label)
 # chart title, labels, legend
 plt.title('Logarithm of Aperture Diameter as a Function of Limiting Magnitude')
 plt.xlabel('Limiting Magnitude, $\mathregular{m_{lim}}$')
-plt.ylabel('Logarithm of Aperture Diameter, log(d)')
+plt.ylabel('Logarithm of Aperture Diameter, log(d) (d in inches)')
 plt.legend()
 
 # show plot

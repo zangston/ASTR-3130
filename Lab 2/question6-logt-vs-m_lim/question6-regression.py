@@ -37,7 +37,7 @@ plt.plot(x_regression, y_regression, color='orange', label=line_label)
 # chart title, labels, legend
 plt.title('Log-Integration Time as a Function of Limiting Magnitude')
 plt.xlabel('Limiting Magnitude, $\mathregular{m_{lim}}$')
-plt.ylabel('Logarithm of Aperture Diameter, log(t)')
+plt.ylabel('Logarithm of Integration Time, log(t) (t in ms)')
 plt.legend()
 
 # show plot
