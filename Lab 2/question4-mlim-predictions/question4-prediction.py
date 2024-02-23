@@ -65,7 +65,7 @@ line_label = 'Fit line: log(d) = ' + str(round(m, 2)) + '$\mathregular{m_{lim}}$
 plt.plot(x_regression, y_regression, color='orange', label=line_label)
 
 # chart title, labels, legend
-plt.title('Logarithm of Aperture Diameter as a Function of Limiting Magnitude')
+plt.title('Log-Diameter versus Limiting Magnitude, with Predictions for Larger Telescopes')
 plt.xlabel('Limiting Magnitude, $\mathregular{m_{lim}}$')
 plt.ylabel('Logarithm of Aperture Diameter, log(d)')
 plt.legend()
