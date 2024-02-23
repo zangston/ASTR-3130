@@ -10,7 +10,7 @@ from scipy.optimize import curve_fit
 m_lim = [5.41, 7.00, 7.91, 8.94, 9.81, 10.63, 11.63]  # exclude 12.88 because H star was not visible on baseline 14-inch
 
 # define dependent variable d, the smallest aperture diameter through which each star could be seen
-d = [0.67, 1.5, 2, 3.5, 4, 14, 14]
+d = [0.67, 1.5, 2, 3.5, 4, 13.26, 13.26]
 # convert to logspace
 log_d = np.log(d)
 print(log_d)
