@@ -8,11 +8,11 @@ from scipy.optimize import curve_fit
 # define independent variable m_lim, defined as the Gaia magnitude of asterism stars, provided in lab assignment
 m_lim = [5.41, 7.00, 7.91, 8.94, 9.81, 10.63, 11.63, 12.88]
 
-# define dependent variable t, the shortest exposure time before loss of visibility
+# define dependent variable t, the shortest exposure time before loss of visibility, in ms
 t = [20, 30, 50, 200, 900, 2000, 5000, 12000]
 # convert to logspace
-log_t = np.log(t)
-# print(log_t)
+log_t = np.log10(t)
+print(log_t)
 
 # scatter data points
 plt.scatter(m_lim, log_t, label='Data')

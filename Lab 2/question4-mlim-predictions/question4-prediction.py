@@ -40,7 +40,7 @@ plt.scatter(m_lim, log_d, label='Data')
 
 # define diameters of telescopes whose limiting magnitudes are being predicted
 d_pred = [26, 40, 393.701, 467.69]
-log_d_pred = np.log(d_pred)
+log_d_pred = np.log10(d_pred)
 
 # generate predictions based off fitted regression relationship
 m_lim_pred = []
